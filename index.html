@@ -16,36 +16,43 @@
             <form class="pizza-form">
               <div class="form-group">
                 <label for="pizza-crust">Choose your crust</label>
-                <select class="form-control" name="pizza-crust">
+                <select class="form-control" name="pizza-crust" id="pizza-crust">
                   <option value="1">Hand-Tossed</option>
                   <option value="0">Thin Crust</option>
                 </select>
               </div>
               <div class="form-group">
                 <label for="pizza-size">Choose your size</label>
-                <select class="form-control" name="pizza-crust">
+                <select class="form-control" name="pizza-size" id="pizza-size">
                   <option value="10">Small (10")</option>
                   <option value="11">Medium (12")</option>
                   <option value="13">Large (14")</option>
                 </select>
               </div>
               <div class="form-group">
-                <label for="pizza-toppings">Choose your size</label>
-                <select class="form-control" name="pizza-crust">
-                  <option value="1">Anchoivies</option>
-                  <option value="1">Bacon</option>
-                  <option value="1">Beef</option>
-                  <option value="1">Canadian Bacon</option>
-                  <option value="1">Grilled All-White</option>
-                  <option value="1">Chicken</option>
-                  <option value="1">Italian Sausage</option>
-                  <option value="1">Pepperoni</option>
-                  <option value="1">Sausage</option>
-                  <option value="2">Chicken, Extra Cheese (Premium)</option>
-                  <option value="2">Roasted Garlic, 3 Cheese (Premium)</option>
-                  <option value="2">Blend, 2 Cheese Blend (Premium)</option>
-                  <option value="2">Artichoke Hearts (Premium)</option>
-                </select>
+                <label for="pizza-toppings">Choose your toppings:</label><br>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <p>Regular Toppings:</p>
+                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Anchovies</label>
+                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Bacon</label>
+                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Beef</label>
+                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Canadian Bacon</label>
+                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Grilled All-White</label>
+                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Chicken</label>
+                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Italian Sausage</label>
+                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Pepperoni</label>
+                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Sausage</label>
+                    </div>
+                    <div class="col-md-4">
+                      <p>Premium Toppings</p>
+                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Chicken, Extra Cheese (Premium)</label>
+                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Roasted Garlic, 3 Cheese (Premium)</label>
+                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Artichokes Hearts (Premium)</label>
+                    </div>
+                  </div>
+                </div>
               </div>
               <button type="submit" class ="btn btn-success">Order</button>
             </form>
