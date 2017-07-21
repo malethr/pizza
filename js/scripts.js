@@ -35,12 +35,16 @@ $(document).ready(function(){
     var inputSize = parseInt($("select#pizza-size").val());
     $("input:checkbox[name=pizza-toppings]:checked").each(addToppings);
     var inputToppings = checkSize(inputSize);
+
     var newPizza = new Pizza(inputCrust, inputSize, inputToppings);
+
     var price = (newPizza.getPrice()).toFixed(2);
+
     $("span#crust-price").text(inputCrust.toFixed(2));
     $("span#size-price").text(inputSize.toFixed(2));
     $("span#toppings-price").text(inputToppings.toFixed(2));
     $("span#total").text(price);
+
     $(".pizza-summary").show();
     $("form#pizza-form").hide();
   });
