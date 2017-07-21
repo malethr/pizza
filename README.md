@@ -8,6 +8,8 @@
 
 _A website that asks for user's preference for pizza's crust and toppings then display the corresponding amount._
 
+[Click here](https://malethr.github.io/pizza/) to check my pingpong webpage.
+
 ## Development Specifications
 
 | Behavior      | Input | Output |
@@ -21,7 +23,7 @@ _A website that asks for user's preference for pizza's crust and toppings then d
 
 * _Clone this repository_
 * _For a mac, run the following command in your terminal:
-git clone (URL.git)_
+git clone https://github.com/malethr/pizza.git_
 * _Open the folder and click the html file in your preferred web browser._
 
 ## Support and contact details
