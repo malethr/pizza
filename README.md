@@ -15,7 +15,7 @@ _A website that asks for user's preference for pizza's crust and toppings then d
 | Output can display price of user's choice of pizza crust | Hand Tossed  | crust = $ 1.00  |
 | Output can display price of user's choice of pizza size| Large 14"  | size = $ 13.00  |
 | Output can display price of user's choice of pizza toppings| pepperoni (large) | toppings = $ 1.50  |
-| Output can display total order summary of user's ordered pizza| crust,size,toppings  | total = $ 15.50  |
+| Output can display total order summary of user's ordered pizza| crust = $ 1.00 , size = $ 13.00, toppings = $ 1.50  | total = $ 15.50  |
 
 ## Setup/Installation Requirements
 
