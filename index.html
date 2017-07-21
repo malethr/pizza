@@ -67,6 +67,7 @@
                     <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="2">Chicken, Extra Cheese</label>
                     <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="2">Roasted Garlic, 3 Cheese</label>
                     <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="2">Artichokes Hearts</label>
+                    <img src="img/pizza.png" alt="pepperoni photo" id="small-pizza">
                   </div>
                 </div>
               </div>
@@ -86,17 +87,17 @@
             <p>Toppings:</p>
             <hr>
             <h2>Total:</h2>
+            <button type="reset" value="Refresh Page" onClick="window.location.reload()" class="btn btn-warning">Order Again</button>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3" id="borderRight-style">
             <p>$&nbsp;<span id="crust-price"></span></p>
             <p>$&nbsp;<span id="size-price"></span></p>
             <p>$&nbsp;<span id="toppings-price"></span></p>
             <hr>
             <h2>$&nbsp;<span id="total"></span></h2>
           </div>
-          <div class="col-md-6" id="thank-you-style">
-            <h3>THANK YOU</h3>
-            <h5><em>for<br>your Order!</em></h5>
+          <div class="col-md-6">
+            <img src="img/thank-you.png" alt="thank you image" class="img-rounded">
           </div>
         </div>
       </div>
