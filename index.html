@@ -9,65 +9,100 @@
   </head>
   <body>
     <div class="container">
-      <h1 class ="jumbotron">PIZZA ORDER</h1>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <form class="pizza-form">
-              <div class="form-group">
-                <label for="pizza-crust">Choose your crust</label>
-                <select class="form-control" name="pizza-crust" id="pizza-crust">
-                  <option value="1">Hand-Tossed</option>
-                  <option value="0">Thin Crust</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="pizza-size">Choose your size</label>
-                <select class="form-control" name="pizza-size" id="pizza-size">
-                  <option value="10">Small (10")</option>
-                  <option value="11">Medium (12")</option>
-                  <option value="13">Large (14")</option>
-                </select>
-              </div>
-              <div class="form-group">
+      <div class="jumbotron">
+        <h1>Mama Zen's PIZZA</h1>
+      </div>
+      <div class="row">
+        <form id="pizza-form" class="well">
+          <div class="form-group col-md-6">
+            <label for="pizza-crust">Choose your crust</label>
+            <select class="form-control" name="pizza-crust" id="pizza-crust">
+              <option value="1">Hand-Tossed</option>
+              <option value="0">Thin Crust</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="pizza-size">Choose your size</label>
+            <select class="form-control" name="pizza-size" id="pizza-size">
+              <option value="10">Small (10")</option>
+              <option value="11">Medium (12")</option>
+              <option value="13">Large (14")</option>
+            </select>
+          </div>
+          <div id="topping-style">
+            <div class="form-group">
+              <div id="toppinglabel-style">
                 <label for="pizza-toppings">Choose your toppings:</label><br>
                 <p>Small ($ 1.00)    Medium ($ 1.25)    Large ($ 1.75)</p>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-4">
-                      <p>Regular Toppings:</p>
-                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Anchovies</label>
-                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Bacon</label>
-                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Beef</label>
-                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Canadian Bacon</label>
-                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Grilled All-White</label>
-                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Chicken</label>
-                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Italian Sausage</label>
-                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Pepperoni</label>
-                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Sausage</label>
-                    </div>
-                    <div class="col-md-4">
-                      <p>Premium Toppings</p>
-                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="2">Chicken, Extra Cheese (Premium)</label>
-                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="2">Roasted Garlic, 3 Cheese (Premium)</label>
-                      <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="2">Artichokes Hearts (Premium)</label>
-                    </div>
+                <hr>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <p>Meat Toppings:</p>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Anchovies</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Bacon</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Beef</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Canadian Bacon</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Grilled All-White</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Chicken</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Italian Sausage</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Pepperoni</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Sausage</label>
+                  </div>
+                  <div class="col-md-4">
+                    <p>Vegetable Toppings:</p>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Fresh Mushrooms</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Black Olives</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Green Peppers</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Jalapeño Peppers</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Onions</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Pineapple</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Roma Tomatoes</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Extra Cheese</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="1">Roasted Garlice</label>
+                  </div>
+                  <div class="col-md-4">
+                    <p>Premium Toppings:</p>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="2">Chicken, Extra Cheese</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="2">Roasted Garlic, 3 Cheese</label>
+                    <label class="checkbox"><input type="checkbox" name="pizza-toppings" value="2">Artichokes Hearts</label>
                   </div>
                 </div>
               </div>
-              <button type="submit" class ="btn btn-success">Order</button>
-            </form>
+            </div>
           </div>
-        </div>
+          <hr>
+          <button type="submit" class ="btn btn-success btn-lg">Order</button>
+        </form>
       </div>
       <div class="pizza-summary well">
         <h3>Order Summary:</h3>
-        <p>Crust: $&nbsp;<span id="crust-price"></span></p>
-        <p>Size: $&nbsp;<span id="size-price"></span></p>
-        <p>Toppings: $&nbsp;<span id="toppings-price"></span></p>
         <hr>
-        <h4>Total: $&nbsp;<span id="total"></span></h4>
+        <div class="row">
+          <div class="col-md-3">
+            <p>Crust:</p>
+            <p>Size:</p>
+            <p>Toppings:</p>
+            <hr>
+            <h2>Total:</h2>
+          </div>
+          <div class="col-md-3">
+            <p>$&nbsp;<span id="crust-price"></span></p>
+            <p>$&nbsp;<span id="size-price"></span></p>
+            <p>$&nbsp;<span id="toppings-price"></span></p>
+            <hr>
+            <h2>$&nbsp;<span id="total"></span></h2>
+          </div>
+          <div class="col-md-6" id="thank-you-style">
+            <h3>THANK YOU</h3>
+            <h5><em>for<br>your Order!</em></h5>
+          </div>
+        </div>
       </div>
     </div>
+      <blockquote class="panel"><p>“Duplication is the primary enemy of a well-designed system.”</p>
+        <footer>Robert C. Martin</footer>
+      </blockquote>
   </body>
 </html>
