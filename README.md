@@ -8,7 +8,7 @@
 
 _A website that asks for user's preference for pizza's crust and toppings then display the corresponding amount._
 
-[Click here](https://malethr.github.io/pizza/) to check my pingpong webpage.
+[Click here](https://malethr.github.io/pizza/) to check my live webpage.
 
 ## Development Specifications
 
