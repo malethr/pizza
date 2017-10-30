@@ -21,8 +21,9 @@ _A website that asks for user's preference for pizza's crust and toppings then d
 
 ## Screenshots
 
-![image1](https://github.com/malethr/pizza/blob/master/img/screen2.png)
-![image2](https://github.com/malethr/pizza/blob/master/img/screen1.png)
+![image1](https://github.com/malethr/pizza/blob/master/img/screen1.png)
+![image2](https://github.com/malethr/pizza/blob/master/img/screen2.png)
+
 
 ## Setup/Installation Requirements
 
