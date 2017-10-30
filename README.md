@@ -19,6 +19,11 @@ _A website that asks for user's preference for pizza's crust and toppings then d
 | Output can display price of user's choice of pizza toppings| pepperoni (large) | toppings = $ 1.50  |
 | Output can display total order summary of user's ordered pizza| crust = $ 1.00 , size = $ 13.00, toppings = $ 1.50  | total = $ 15.50  |
 
+## Screenshots
+
+![image1](https://github.com/malethr/pizza/blob/master/img/screen2.png)
+![image2](https://github.com/malethr/pizza/blob/master/img/screen1.png)
+
 ## Setup/Installation Requirements
 
 * _Clone this repository_
